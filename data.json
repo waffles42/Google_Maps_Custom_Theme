@@ -1,35 +1,30 @@
 {
-  "coord": { "lon": 13.1667, "lat": 43.55 },
+  "coord": { "lon": 15.2422, "lat": 44.1197 },
   "weather": [
-    {
-      "id": 802,
-      "main": "Clouds",
-      "description": "scattered clouds",
-      "icon": "03d"
-    }
+    { "id": 800, "main": "Clear", "description": "clear sky", "icon": "01d" }
   ],
   "base": "stations",
   "main": {
-    "temp": 33.66,
-    "feels_like": 33.55,
-    "temp_min": 26.86,
-    "temp_max": 37.97,
-    "pressure": 1013,
-    "humidity": 34
+    "temp": 35.34,
+    "feels_like": 34.36,
+    "temp_min": 34.25,
+    "temp_max": 35.34,
+    "pressure": 1014,
+    "humidity": 26
   },
   "visibility": 10000,
-  "wind": { "speed": 3.13, "deg": 360, "gust": 5.81 },
-  "clouds": { "all": 43 },
-  "dt": 1627472400,
+  "wind": { "speed": 4.63, "deg": 150 },
+  "clouds": { "all": 0 },
+  "dt": 1627474166,
   "sys": {
-    "type": 2,
-    "id": 2022004,
-    "country": "IT",
-    "sunrise": 1627444343,
-    "sunset": 1627497302
+    "type": 1,
+    "id": 6392,
+    "country": "HR",
+    "sunrise": 1627443746,
+    "sunset": 1627496903
   },
   "timezone": 7200,
-  "id": 3183087,
-  "name": "Provincia di Ancona",
+  "id": 3186952,
+  "name": "Zadar",
   "cod": 200
 }

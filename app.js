@@ -6,6 +6,12 @@ const input = document.querySelector(".top-banner input");
 const msg = document.querySelector(".top-banner .msg");
 const list = document.querySelector(".ajax-section .cities");
 
+// <figcaption>${main.pressure} hpa/mbar</figcaption>
+
+function moreInfo() {
+  alert("werks");
+}
+
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   let inputVal = input.value;
@@ -30,7 +36,9 @@ form.addEventListener("submit", (e) => {
           <img class="city-icon" src="${icon}" alt="${
         weather[0]["description"]
       }">
-          <figcaption>${weather[0]["description"]}</figcaption>
+          <figcaption>${weather[0]["description"]}</figcaption></br>
+          <small onclick="moreInfo()">°°° </small>
+          
         </figure>
       `;
       li.innerHTML = markup;
