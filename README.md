@@ -1,2 +1,2 @@
-# Google_Maps_Custom_Theme
-Custom theme overlay for Google Maps
+# Weather Forecast App
+A basic little app for displaying weather info by using pure JavaScript
