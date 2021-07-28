@@ -52,3 +52,12 @@ form.addEventListener("submit", (e) => {
   form.reset();
   input.focus();
 });
+
+//TODO
+
+//change colour on hover
+//expand view on click
+//add all info to expanded view
+//add a graph
+//finish UI
+//history??
