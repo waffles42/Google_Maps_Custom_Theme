@@ -8,7 +8,11 @@ const list = document.querySelector(".ajax-section .cities");
 // <figcaption>${main.pressure} hpa/mbar</figcaption>
 
 function moreInfo() {
-  alert("werks");
+  console.log("werks");
+  let li = document.getElementsByTagName("li");
+  for (i = 0; i < li.length; i++) {
+    li[i].classList.add("expanded");
+  }
 }
 
 form.addEventListener("submit", (e) => {
@@ -41,6 +45,7 @@ form.addEventListener("submit", (e) => {
         </figure>
       `;
       li.innerHTML = markup;
+
       list.appendChild(li);
     })
     .catch(() => {
@@ -53,6 +58,13 @@ form.addEventListener("submit", (e) => {
 });
 
 //TODO
+
+//HTML ✓
+//CSS ✓
+//fetch JSON ✓
+//Custom input ✓
+//grid array ✓
+//responsive display ✓
 
 //change colour on hover
 //expand view on click

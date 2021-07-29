@@ -76,6 +76,11 @@ body {
 /* .explanded-info .explanded-info.visible {
 } */
 
+.expanded {
+  height: 5000px;
+  background-color: chartreuse;
+}
+
 /* SECTION #1
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .top-banner {
