@@ -9,10 +9,12 @@ const list = document.querySelector(".ajax-section .cities");
 
 function moreInfo() {
   console.log("werks");
-  let li = document.getElementsByTagName("li");
-  for (i = 0; i < li.length; i++) {
-    li[i].classList.add("expanded");
-  }
+  //  let li = document.getElementsByTagName("li");
+  //  for (i = 0; i < li.length; i++) {
+  //    li[i].classList.add("expanded");
+  //  }
+  popup = document.querySelector("popup");
+  popup.classList.add("add-popup");
 }
 
 form.addEventListener("submit", (e) => {
