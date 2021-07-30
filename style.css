@@ -77,7 +77,8 @@ body {
 } */
 
 .expanded {
-  height: 5000px;
+  animation: fade-slide-in 1s ease-out forwards;
+  height: 800px;
   background-color: chartreuse;
 }
 
